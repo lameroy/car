@@ -27,6 +27,8 @@ public class CarServerApplication {
 
     public static void main(String[] args) {
         int i = 1;
+        int id = 2;
+
         SpringApplication.run(CarServerApplication.class, args);
     }
 
