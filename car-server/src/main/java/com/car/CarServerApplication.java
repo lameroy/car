@@ -19,10 +19,14 @@ public class CarServerApplication {
 
     @Bean
     RestTemplate restTemplate() {
+
+
+
         return new RestTemplate();
     }
 
     public static void main(String[] args) {
+        int i = 1;
         SpringApplication.run(CarServerApplication.class, args);
     }
 
